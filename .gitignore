@@ -1,0 +1,22 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+.terraformrc
+terraform.rc
+.terraform/
+
+# Terragrunt files
+terragrunt-debug.tfvars
+terragrunt-cache/
+
+# Checkov files
+.checkov_scan_report.json
+
+# General sensitive files
+*.env
+*.env.*
+secrets.auto.tfvars

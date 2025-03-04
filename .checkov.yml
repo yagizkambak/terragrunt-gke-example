@@ -1,0 +1,14 @@
+# Example for skipping checks
+# skip-check:
+#   - CKV_GCP_9
+#   - CKV_GCP_10
+#   - CKV_GCP_13
+#   - CKV_GCP_23
+#   - CKV_GCP_20
+#   - CKV_GCP_25
+#   - CKV_GCP_64
+#   - CKV_GCP_65
+#   - CKV_GCP_66
+#   - CKV_GCP_68
+#   - CKV_GCP_69
+#   - CKV_SECRET_13
