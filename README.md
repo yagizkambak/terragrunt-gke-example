@@ -56,7 +56,7 @@ terragrunt run-all apply --queue-include-dir .\environments\*\<<module-name>>
 terragrunt run-all destroy --queue-include-dir .\environments\*\<<module-name>>
 ```
 
-## Bonus: Chekov Integration
+## Bonus: Checkov Integration
 
 Checkov scans cloud infrastructure configurations to detect misconfigurations before they're deployed.
 
